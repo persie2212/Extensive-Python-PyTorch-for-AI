@@ -28,7 +28,6 @@ README_CONTENT_CHECK_FOR = [
 
 def test_readme_exists():
     assert os.path.isfile("README.md"), "README.md file missing!"
-
 # def test_readme_contents():
 #     readme_words=[word for line in open('README.md', 'r',encoding="utf-8") for word in line.split()]
 #     assert len(readme_words) >= 100, "Make your README.md file interesting! Add atleast 500 words"
