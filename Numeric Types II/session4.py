@@ -3,7 +3,6 @@ import math
 import decimal
 from decimal import Decimal
 
-
 class Qualean():
     def __init__(self, x):
         self.x = x
@@ -36,7 +35,7 @@ class Qualean():
         return self.y == value.y
 
     def __float__(self):
-        float(self.y)
+        return float(self.y)
 
     def __ge__(self, value):
         return self.y >= value.y
