@@ -127,5 +127,18 @@ def test_invertsign():
 #     r2 = session4.Qualean(x)
 #     assert r1 >= r2, "must be greater than or equal!"
 
+# def test_fourspace_equal():
+#     assert fourspace(session4) == False, 'Not all spaces before lines are a multiple of 4!'
+#
+# def test_function_names():
+#     assert test_function_name_had_cap_letter(session4) == False, "One of your function has a capitalized alphabet!"
+
+# def test_sqrt_given():
+#     q = session4.Qualean(1)
+#     a = q.value
+#     getcontext().prec = 10
+#     print(q.__sqrt__(), "ooo")
+#     print(Decimal(a).sqrt(), "pppp")
+#     assert q.__sqrt__() == Decimal(a).sqrt(), "error"
 
 
